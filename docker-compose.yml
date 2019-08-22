@@ -1,0 +1,12 @@
+version: "3"
+services:
+    www:
+        container_name: php-docker-heml
+        image: php-docker-heml:first
+        build: .
+        ports:
+            - "3000:80"
+        networks:
+            - default
+
+
