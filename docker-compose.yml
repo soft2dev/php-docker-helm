@@ -5,7 +5,7 @@ services:
         image: php-docker-heml:first
         build: .
         ports:
-            - "3000:80"
+            - "80:80"
         networks:
             - default
 
