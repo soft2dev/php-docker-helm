@@ -2,7 +2,7 @@ version: "3"
 services:
     www:
         container_name: php-docker-heml
-        image: php-docker-heml:first
+        image: soft2dev/php-docker-heml:latest
         build: .
         ports:
             - "80:80"
